@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hello Kotlin</string>
+    <string name="tts_ifMessage">Por favor, escribe algo antes de dar clic en Play.</string>
+    <string name="tts_elseMessage">Genial!!</string>
+    <string name="succes_text">Listo!!</string>
+    <string name="failure_text">No disponible :(</string>
+    <string name="hint_message">Escrible algo</string>
+    <string name="text_status_init">Hello Kotlin!!</string>
+</resources>
