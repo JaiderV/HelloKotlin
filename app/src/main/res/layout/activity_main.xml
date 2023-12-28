@@ -9,25 +9,42 @@
     android:padding="64dp"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_text_welcome_message"
+        android:textColor="@color/teal_900"
+        android:textSize="21sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/tv_description_text"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"/>
     <EditText
         android:id="@+id/etMessage"
-        android:layout_width="match_parent"
+        android:layout_width="270dp"
         android:layout_height="wrap_content"
         android:hint="@string/hint_message"
-        android:textSize="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
         android:autofillHints="no"
         android:inputType="text" />
     <Button
         android:id="@+id/btnPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Play"
+        android:text="@string/btn_play_text"
+        android:textColor="@color/white"
         android:layout_margin="16dp"
-        android:background="@color/teal_200"/>
+        android:background="@color/teal_900"/>
     <TextView
         android:id="@+id/tvStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_status_init" />
-
+        android:text="@string/text_status_init"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"/>
 </LinearLayout>
