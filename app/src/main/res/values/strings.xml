@@ -6,4 +6,7 @@
     <string name="failure_text">No disponible :(</string>
     <string name="hint_message">Escrible algo</string>
     <string name="text_status_init">Hello Kotlin!!</string>
+    <string name="tv_description_text">¿Quieres escuchar lo que quieres escribir?, solo tienes que presionar Play!!</string>
+    <string name="tv_text_welcome_message">Bienvenido a Hello Kotlin App!!</string>
+    <string name="btn_play_text">Play</string>
 </resources>
